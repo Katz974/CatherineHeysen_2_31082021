@@ -1,0 +1,32 @@
+#activities {
+  padding: 32px 16px;
+}
+
+#activities > header {
+  margin-bottom: 24px;
+}
+
+#activities h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#activities > .content > a {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #d9d9d9;
+  margin-top: 10px;
+}
+
+#activities > .content > a > img {
+  height: 120px;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+#activities > .content > a > .title {
+  padding: 16px;
+}

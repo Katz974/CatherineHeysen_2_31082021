@@ -1,0 +1,10 @@
+@media only screen and (min-width: 992px) {
+  .footer > nav {
+    flex: 0 0 32%;
+  }
+
+  .footer {
+    padding-top: 15px;
+    justify-content: flex-start;
+  }
+}

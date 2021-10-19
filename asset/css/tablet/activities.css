@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #activities {
+    padding: 32px;
+  }
+
+  #activities > header {
+    margin-bottom: 24px;
+  }
+
+  #activities h1 {
+    font-weight: 500;
+  }
+
+  #activities > .content {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 0 0 auto;
+  }
+
+  #activities > .content > a {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #d9d9d9;
+    margin-top: 10px;
+  }
+
+  #activities > .content > a > img {
+    height: 120px;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+
+  #activities > .content > a > .title {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #0065fc;
+  --secondary-color: #deebff;
+  --background-color: #f2f2f2;
+  --container-max-width: 1440px;
+  --padding: 20px;
+}
+
+body {
+  font-family: "Raleway", "Trebuchet MS", Arial, sans-serif;
+  margin: 0 50px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto auto;
+}
+
+.stars {
+  font-size: x-small;
+}
+
+.stars > .fas {
+  color: #d9d9d9;
+}
+
+.stars > .blue {
+  color: var(--primary-color);
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: small;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

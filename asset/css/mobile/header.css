@@ -1,0 +1,87 @@
+/* Header is a flex container */
+body > header {
+  display: flex;
+  flex-flow: wrap;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+}
+
+/* Every child takes a complete row: 100% */
+body > header > * {
+  flex-basis: 100%;
+  font-weight: 300;
+}
+
+/* Logo image is displayed as block to support horizontal auto margin */
+body > header > div > a .logo img {
+  display: block;
+  height: 46px;
+  margin: 20px auto;
+}
+
+/* Menu in header is a flex container */
+body > header .menu {
+  display: flex;
+  padding-right: var(--padding);
+}
+
+/* All menu links are box sized equal */
+body > header .menu > a {
+  flex-basis: 50%;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: solid 3px var(--background-color);
+}
+
+body > header .menu > a:hover {
+  color: var(--primary-color);
+}
+
+/* Active menu link is blue */
+body > header .menu > a.active {
+  border-bottom-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  body > header .menu {
+    padding: 0;
+  }
+
+  body > header {
+    width: 100%;
+  }
+
+  /* 3rd active menu will disappear on mobile */
+  body > header .menu > a:nth-child(3) {
+    display: none;
+    color: var(--primary-color);
+    font-weight: 700;
+  }
+
+  body > header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  body > header > div .logo img {
+    display: block;
+    height: 46px;
+    margin: 20px 20px 28px 20px;
+  }
+
+  body > header > div :nth-child(2) {
+    color: var(--primary-color);
+    font-weight: 700;
+    padding: var(--padding);
+  }
+
+  /* body > header > div > a:focus:nth-child(2) {
+    color: var(--primary-color);
+  } */
+}

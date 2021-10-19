@@ -1,0 +1,40 @@
+#accommodations {
+  padding: 32px 16px;
+}
+
+#accommodations > header {
+  margin-bottom: 16px;
+}
+
+#accommodations h1 {
+  font-size: 1.4em;
+}
+
+#accommodations > .content > a {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 1px 1px 10px #d9d9d9;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#accommodations > .content > a > img {
+  height: 127px;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+#accommodations > .content > a > .description {
+  padding: 8px 16px;
+}
+
+#accommodations > .show-more {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+  margin-top: 32px;
+}

@@ -1,0 +1,54 @@
+#populars {
+  background-color: var(--background-color);
+  padding: 35px 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+#populars > .heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#populars > .heading > :first-child {
+  flex-grow: 1;
+}
+
+#populars > .heading > i {
+  font-size: large;
+}
+
+#populars > .content {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#populars > .content > a {
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 1px 1px 10px #d9d9d9;
+  margin-top: 10px;
+}
+
+#populars > .content > a > img {
+  height: 132px;
+  width: 132px;
+  flex: 0 0 auto;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+#populars > .content > a > .description {
+  padding: 8px 16px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#populars > .content > a > .description > .subtitle {
+  flex-grow: 1;
+}

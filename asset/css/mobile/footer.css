@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--background-color);
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+  padding: 0 30px 32px 30px;
+  max-width: var(--container-max-width);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.footer > nav {
+  flex: 0 0 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+.footer h1 {
+  font-size: 1em;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  font-weight: 200;
+  font-size: 0.9em;
+}

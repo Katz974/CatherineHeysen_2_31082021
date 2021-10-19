@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #accommodations > header > h1 {
+    font-weight: 500;
+  }
+
+  #accommodations {
+    padding: 32px;
+  }
+
+  #accommodations > .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #accommodations > .show-more {
+    font-weight: 300;
+    font-weight: bold;
+  }
+
+  #accommodations > .content > a {
+    flex: 0 0 auto;
+    width: 47%;
+  }
+}
