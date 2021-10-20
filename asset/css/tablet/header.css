@@ -44,8 +44,8 @@
   }
 
   body > header .menu > a:nth-child(1) {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 62px;
+    padding-bottom: 62px;
     padding-right: 25px;
     padding-left: 25px;
     border-top: 2px solid var(--primary-color);
