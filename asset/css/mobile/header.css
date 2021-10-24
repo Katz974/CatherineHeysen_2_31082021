@@ -3,7 +3,6 @@ body > header {
   display: flex;
   flex-flow: wrap;
   max-width: var(--container-max-width);
-  margin: 0 auto;
 }
 
 /* Every child takes a complete row: 100% */
