@@ -1,5 +1,89 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   #populars {
-    padding: 42px 32px 32px 32px;
+    padding: 32px 15px 34px 15px;
+
+    width: 31.34%;
   }
+
+  #populars > .content {
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  #populars > .content > a {
+    margin-top: 0;
+    width: 85%;
+  }
+
+  #populars > .heading {
+    width: 87%;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  /* START populars "column-cards"   */
+  /* #populars > .content > a {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #d9d9d9;
+
+    background-color: white;
+    width: 85%;
+    margin-top: 0;
+  }
+
+  #populars > .content > a > img {
+    height: 113px;
+    width: 235px;
+    width: 100%;
+
+    flex: 0 0 auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+
+  #populars > .content > a > .description {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 8px 11px;
+  }
+
+  #populars > .heading {
+    margin-bottom: 20px;
+    width: 85%;
+    align-self: center;
+    align-content: center;
+  }
+
+  #populars > .heading > h2 {
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+
+  #populars > .heading > i {
+    font-size: medium;
+  } */
+  /*  END populars "column-cards" */
+}
+
+@media only screen and (min-width: 1200px) {
+  #populars {
+    padding: 45px 40px 34px 37px;
+
+    width: 31.34%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #populars > .content > a:nth-child(2) > img {
+    height: 142px;
+  }
+
+  /* #populars > .content > a:nth-child(2) > .description > .title {
+    font-size: small;
+  } */
 }
