@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #populars {
     background-color: var(--background-color);
-    padding: 35px 20px;
+    padding: 35px 30px;
     display: flex;
     flex-flow: column;
   }
@@ -20,13 +20,14 @@
     font-size: large;
   }
 
-  #populars > .content {
+  /* #populars > .content {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    flex: 0 0 auto;
-  }
+    flex: 0 0 auto; */
+  /* vertical-align: baseline; */
+  /* }
 
   #populars > .content > a {
     background-color: white;
@@ -37,6 +38,7 @@
     padding: 5px;
     box-shadow: 1px 1px 10px #d9d9d9;
     margin-top: var(--padding);
+    vertical-align: baseline;
   }
 
   #populars > .content > a > img {
@@ -55,5 +57,39 @@
 
   #populars > .content > a > .description > .subtitle {
     flex-grow: 1;
+  } */
+
+  #populars > .content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    row-gap: 30px;
+  }
+
+  #populars > .content > a {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #d9d9d9;
+
+    background-color: white;
+    width: 30%;
+  }
+
+  #populars > .content > a > img {
+    height: 113px;
+    width: 235px;
+    width: 100%;
+
+    flex: 0 0 auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+
+  #populars > .content > a > .description {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 8px 11px;
   }
 }
