@@ -1,6 +1,8 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-left: 50px;
+    gap: 30px;
   }
 
   .footer > nav {
