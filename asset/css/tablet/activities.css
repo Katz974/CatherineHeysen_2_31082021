@@ -15,14 +15,15 @@
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    row-gap: 30px;
     flex: 0 0 auto;
   }
 
   #activities > .content > a {
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: 48%;
     border-radius: 15px;
     box-shadow: 1px 1px 10px #d9d9d9;
     margin-top: 10px;
