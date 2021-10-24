@@ -2,7 +2,7 @@
   background-color: var(--background-color);
   padding: 35px 20px;
   display: flex;
-  flex-flow: column;
+  flex-flow: column nowrap;
 }
 
 #populars > .heading {
@@ -36,8 +36,8 @@
 }
 
 #populars > .content > a > img {
-  height: 132px;
-  width: 132px;
+  height: 133px;
+  width: 125px;
   flex: 0 0 auto;
   border-radius: 10px 0 0 10px;
   object-fit: cover;
