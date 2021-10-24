@@ -1,3 +1,13 @@
+@media only screen and (max-width: 768px) {
+  #accommodations > .content > a {
+    margin-top: 12px;
+  }
+
+  #accommodations > header > h1 {
+    margin-bottom: 20px;
+  }
+}
+
 #accommodations {
   padding: 32px 16px;
 }
@@ -12,24 +22,28 @@
 
 #accommodations > .content > a {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   border-radius: 15px;
   padding: 5px;
   box-shadow: 1px 1px 10px #d9d9d9;
-  margin-top: 10px;
+
   background-color: white;
 }
 
 #accommodations > .content > a > img {
-  height: 127px;
+  height: 113px;
+  width: 235px;
   width: 100%;
+
   flex: 0 0 auto;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
 }
 
 #accommodations > .content > a > .description {
-  padding: 8px 16px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 8px 11px;
 }
 
 #accommodations > .show-more {
