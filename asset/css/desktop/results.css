@@ -1,13 +1,35 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .results {
     display: flex;
     flex-flow: row-reverse nowrap;
     justify-content: flex-end;
     gap: 40px;
-    max-height: 630px;
-    /* padding: 0 16px; */
+
     width: 100%;
     overflow: scroll;
+    padding-right: 25px;
+  }
+
+  .results > * {
+    border-radius: 15px;
+  }
+
+  .results > #accommodations {
+    flex: 0 0 53%;
+    background-color: var(--background-color);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .results {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    gap: 40px;
+
+    width: 100%;
+    overflow: scroll;
+    padding-right: 25px;
   }
 
   .results > * {
