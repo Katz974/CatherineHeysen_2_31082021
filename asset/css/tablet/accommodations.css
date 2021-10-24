@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   #accommodations > header > h1 {
     font-weight: 500;
   }
@@ -10,7 +10,8 @@
   #accommodations > .content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    row-gap: 30px;
   }
 
   #accommodations > .show-more {
@@ -21,5 +22,31 @@
   #accommodations > .content > a {
     flex: 0 0 auto;
     width: 47%;
+
+    /* flex: 0 0 auto; */
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  #accommodations > .content > a > img {
+    height: 113px;
+    /* width: 175px; */
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #accommodations > header > h1 {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #accommodations > header > h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
   }
 }
