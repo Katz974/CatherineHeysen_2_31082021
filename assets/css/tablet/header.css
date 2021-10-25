@@ -18,7 +18,7 @@
   body > header > div .logo img {
     display: block;
     height: 45px;
-    margin: 50px 0 40px 0;
+    margin: 40px 0 40px 0;
   }
 
   body > header > * {
@@ -41,7 +41,7 @@
   }
 
   body > header .menu > a:nth-child(1) {
-    padding-top: 52px;
+    padding-top: 47px;
     padding-bottom: 62px;
     padding-right: 25px;
     padding-left: 25px;
@@ -55,12 +55,16 @@
   body > header .menu > a:nth-child(2) {
     padding-right: 34px;
     padding-left: 43px;
+    padding-top: 47px;
+    padding-bottom: 62px;
   }
 
   body > header .menu > a:nth-child(3) {
     color: var(--primary-color);
     font-weight: bold;
     padding-left: 34px;
+    padding-top: 47px;
+    padding-bottom: 62px;
   }
 }
 
