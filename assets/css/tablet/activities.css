@@ -20,6 +20,7 @@
     flex: 0 0 auto;
   }
 
+  /* -- accommodations cards -- */
   #activities > .content > a {
     display: flex;
     flex-direction: column;

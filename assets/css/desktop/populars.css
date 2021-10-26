@@ -1,3 +1,13 @@
+@media only screen and (min-width: 992px) {
+  #populars > .content > a:nth-child(2) > img {
+    height: 148px;
+  }
+
+  /* #populars > .content > a:nth-child(2) > .description > .title {
+    font-size: small;
+  } */
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #populars {
     padding: 32px 15px 34px 15px;
@@ -76,14 +86,4 @@
 
     width: 31.34%;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  #populars > .content > a:nth-child(2) > img {
-    height: 148px;
-  }
-
-  /* #populars > .content > a:nth-child(2) > .description > .title {
-    font-size: small;
-  } */
 }
